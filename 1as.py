@@ -43,7 +43,7 @@ async def casino_handler(message: Message):
             f"🌟 +{stars} ⭐"
         )
     else:
-        await message.reply("🎰 Не повезло 😢")
+        await message.reply("🎰 Не повезло 😢 Попробуем еще раз?")
 
 
 async def main():
