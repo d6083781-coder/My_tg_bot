@@ -11,7 +11,7 @@ dp = Dispatcher()
 
 
 def get_stars_reward():
-    return random.choices([25, 50, 100], weights=[80, 15, 5])[0]
+    return random.choices([25, 50, 100], weights=[90, 8, 2])[0]
 
 
 @dp.message()
