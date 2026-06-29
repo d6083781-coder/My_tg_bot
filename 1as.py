@@ -4,7 +4,7 @@ import random
 from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message
 
-TOKEN = "8834936159:AAGuck2qylYB5vV7iOXSrhTHCapscaOYUKI"
+TOKEN = "8849162870:AAGaPzyBOsqq3Q3GQ2o1yoMWiRD7npHEqcE"
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -43,7 +43,7 @@ async def casino_handler(message: Message):
             f"🌟 +{stars} ⭐"
         )
     else:
-        await message.reply("🎰 Не повезло 😢 Попробуем еще раз?")
+        await message.reply("🎰 Не повезло 😢")
 
 
 async def main():
